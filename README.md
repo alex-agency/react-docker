@@ -61,8 +61,6 @@ npm test
 ```
 
 Compile and launch:
-
-React Starter Kit and ReactJS and Webpack:
 ```
 npm start
 ```
