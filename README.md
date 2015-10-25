@@ -1,7 +1,7 @@
-alexagency/react-docker
+alexagency/react-yeoman
 ==========================
 
-**Dockerfile for [Yeoman](http://yeoman.io/) with [ReactJS](https://facebook.github.io/react) generators**
+**Dockerfile for [Yeoman](http://yeoman.io/) with [React](https://facebook.github.io/react) generators**
 
 ### Installation
 
@@ -28,7 +28,7 @@ cd /Users/<MAC USER>
 cd /c/Users/<WINDOWS USER>
 ```
 
-Run **alexagency/react** container from [Docker Hub](https://hub.docker.com/r/alexagency/react/):
+Run **alexagency/react-yeoman** container from [Docker Hub](https://hub.docker.com/r/alexagency/react-yeoman/):
 ```
 docker run -it --rm -p 3000:3000 -p 3001:3001 -v $(pwd)/react:/app alexagency/react
 ```
