@@ -30,7 +30,7 @@ cd /c/Users/<WINDOWS USER>
 
 Run **alexagency/react-yeoman** container from [Docker Hub](https://hub.docker.com/r/alexagency/react-yeoman/):
 ```
-docker run -it --rm -p 3000:3000 -p 3001:3001 -v $(pwd)/react:/app alexagency/react
+docker run -it --rm -p 3000:3000 -p 3001:3001 -v $(pwd)/react:/app alexagency/react-yeoman
 ```
 
 Initiate one of Yeoman generators:
