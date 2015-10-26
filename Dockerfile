@@ -16,7 +16,8 @@ ENV HOME /home/user
 # Install Yeoman with react generators
 RUN npm install -g yo \
 	generator-react-fullstack \
-	generator-react-webpack && \
+	generator-react-webpack \
+	generator-react-static && \
     rm -rf ~/.npm && npm cache clear
 
 # Install lib dependencies

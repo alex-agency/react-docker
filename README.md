@@ -39,6 +39,10 @@ Initiate one of Yeoman generators:
 ```
 yo react-fullstack
 ```
+[React Static Boilerplate](https://github.com/koistya/react-static-boilerplate):
+```
+yo react-static
+```
 [ReactJS and Webpack](https://github.com/newtriks/generator-react-webpack):
 ```
 yo react-webpack
@@ -67,7 +71,7 @@ npm start
 
 Browse to React webapp:
 
-React Starter Kit:
+React Starter Kit and React Static Boilerplate:
 ```
 http://<virtual machine ip>:3000/
 http://<virtual machine ip>:3001/
